@@ -1,0 +1,180 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#title{
+    background-color: #876D68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 0; /* Éliminer les espacements par défaut */
+    margin: 0; /* Éliminer les marges par défaut */
+    width: 100%; /* Assurer que le container prend toute la largeur */
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+    /* padding: 0 0 4.5rem; */
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.download_button {
+    margin: 5% 3% 5% 0;
+}
+
+.bg-image {
+    background-image: url('../images/flotte.jpg');
+    background-size: cover; /* L'image couvre toute la surface de la row */
+    background-position: center center; /* Centrer l'image horizontalement et verticalement */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    min-height: 50vh;
+    width: 100vw; 
+    position: relative; /* Positionnement relatif pour la flexibilité */
+    display: flex;
+    justify-content: center; /* Centrer le texte horizontalement */
+    color: white; /* Texte blanc */
+    text-align: center; /* Centrer le texte */
+}
+
+.attributs {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.features-icon {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.features-icon:hover {
+    color: #ff4c68;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1;  */
+}
+
+#testimonials {
+    /* padding: 7% 15%; */
+    text-align: center;
+    background-color: #876D68;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    text-align: center;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media screen and (max-width:1000px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+  }
