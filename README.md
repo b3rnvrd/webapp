@@ -1,1 +1,1 @@
-Project carried out as part of the Databases and Relational Models course during my first year of the engineering program at Télécom SudParis.
+The purpose of this project was to learn how to develop a web page hosted on a local server (AMP stack) under the guise of a truck fleet management service.
